@@ -1,4 +1,3 @@
-var greeting = require("./greeting.js");
 var log = require("./log.js");
 
 (function () {
@@ -7,5 +6,5 @@ var log = require("./log.js");
 
     log();
 
-    welcomeBtn.addEventListener('click',  function(){ greeting(welcomeMsg)});
+
 })();
